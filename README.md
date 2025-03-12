@@ -8,8 +8,7 @@
 - 💬 Ask me about C++, Python, Flask, Git
 
 ## 📊 GitHub Stats  
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=earlhsjks&show_icons=true&theme=dark)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=earlhsjks&layout=compact&theme=dark)  
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=earlhsjks&show_icons=true&theme=dark) ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=earlhsjks&layout=compact&theme=dark)
 
 ## 🚀 Programming Languages by Mastery
 
