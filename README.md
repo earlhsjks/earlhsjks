@@ -8,7 +8,7 @@ struct Introduction {
     string profession = "IT Student & Aspiring Developer";
     string location = "Philippines";
     vector<string> passions = {"Backend Development", "Continuous Learning"};
-    vector<string> skills = {"C++", "Python", "SQL", "Flask", "Django", "HTML", "CSS"};
+    vector<string> skills = {"C++", "Java", Python", "SQL", "Flask", "Django", "HTML", "CSS"};
     string portfolio = "https://yourportfolio.com/";
     string github = "https://github.com/jenogarcia";
     vector<string> socialMedia = {"https://jenogarcia.com/"};
