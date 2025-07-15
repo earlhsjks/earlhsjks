@@ -1,49 +1,32 @@
 ```
-#include <iostream>
-#include <vector>
-using namespace std;
-
-struct Introduction {
-    string name = "Earl Jeno Garcia";
-    string profession = "IT Student & Aspiring Developer";
-    string location = "Philippines";
-    vector<string> passions = {"Backend Development", "Continuous Learning"};
-    vector<string> skills = {"C++", "Java", Python", "SQL", "Flask", "Django", "HTML", "CSS"};
-    string portfolio = "https://#";
-    string github = "https://github.com/earlhsjks";
-    vector<string> socialMedia = {"https://jenogarcia.com/"};
-    string quote = "Ad Astra Per Aspera.";
+const introduction = {
+  name: "Earl Jeno Garcia",
+  profession: "IT Student & Aspiring Developer",
+  location: "Philippines",
+  passions: ["Backend Development", "Continuous Learning"],
+  skills: ["C++", "Java", "Python", "SQL", "Flask", "Django", "HTML", "CSS"],
+  portfolio: "https://#",
+  github: "https://github.com/earlhsjks",
+  socialMedia: ["https://jenogarcia.com/"],
+  quote: "Ad Astra Per Aspera."
 };
 
-void introduceMyself(const Introduction& intro) {
-    cout << "Hi there, I'm " << intro.name << ", a " << intro.profession 
-         << " from " << intro.location << ".\nMy passion lies in " 
-         << intro.passions[0] << " and " << intro.passions[1] 
-         << ", and I continuously strive to expand my skillset and knowledge in ";
+function introduceMyself(intro) {
+  let introMessage = `Hi there, I'm ${intro.name}, a ${intro.profession} from ${intro.location}.\n`;
+  introMessage += `My passion lies in ${intro.passions[0]} and ${intro.passions[1]}, `;
+  introMessage += `and I continuously strive to expand my skillset and knowledge in ${intro.skills.join(", ")}.\n`;
 
-    for (size_t i = 0; i < intro.skills.size(); i++) {
-        cout << intro.skills[i];
-        if (i != intro.skills.size() - 1) cout << ", ";
-    }
+  introMessage += `I actively contribute to projects on GitHub (${intro.github}), `;
+  introMessage += `and my portfolio (${intro.portfolio}) showcases some of my work.\n`;
 
-    cout << ".\nI actively contribute to projects on GitHub (" << intro.github 
-         << "), and my portfolio (" << intro.portfolio << ") showcases some of my work.\n"
-         << "If you're interested in my journey, feel free to connect with me on my socials: ";
+  introMessage += `If you're interested in my journey, feel free to connect with me on my socials: ${intro.socialMedia.join(", ")}.\n\n`;
+  introMessage += `One of my favorite quotes is: "${intro.quote}".\n`;
+  introMessage += `Let's connect and create something amazing together!\n`;
 
-    for (size_t i = 0; i < intro.socialMedia.size(); i++) {
-        cout << intro.socialMedia[i];
-        if (i != intro.socialMedia.size() - 1) cout << ", ";
-    }
-
-    cout << ".\n\nOne of my favorite quotes is: \"" << intro.quote << "\".\n"
-         << "Let's connect and create something amazing together!\n";
+  console.log(introMessage);
 }
 
-int main() {
-    Introduction intro;
-    introduceMyself(intro);
-    return 0;
-}
+introduceMyself(introduction);
 ```
 
 ## 📊 GitHub Stats  
