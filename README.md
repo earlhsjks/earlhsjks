@@ -1,15 +1,29 @@
-<h1 align="center">Hi 👋, I'm Earl Jeno Garcia</h1>
-<h3 align="center">IT Student | Aspiring Backend Developer</h3>
+```js
+const introduction = {
+  name: "Earl Jeno Garcia",
+  profession: "IT Student & Aspiring Backend Developer",
+  location: "Philippines",
+  passions: ["Backend Development", "Continuous Learning"],
+  skills: ["Flask", "Node.js", "Express.js", "SQL", "MongoDB", "Python", "Java", "C++", "JavaScript", "HTML", "CSS"],
+  portfolio: "https://earlhsjks.com/",
+  github: "https://github.com/earlhsjks",
+  quote: "Ad Astra Per Aspera."
+};
 
-## About Me
-- 🌍 Based in **Philippines**
-- 💻 Passionate about **Backend Development** and **Database Design**
-- 🌱 Learning and building projects with **Flask**, **Django**, **Node.js**, **Express**, **SQL/NoSQL**
-- 💬 Quote: *"Ad Astra Per Aspera"*
+function introduceMyself(intro) {
+  return `Hi, I'm ${intro.name}, a ${intro.profession} from ${intro.location}.
+I love ${intro.passions.join(" & ")}.
+My main skills include: ${intro.skills.join(", ")}.
+Portfolio: ${intro.portfolio}
+GitHub: ${intro.github}
+Quote: "${intro.quote}"`;
+}
+
+introduceMyself(introduction);
+```
 
 ## Tech Stack
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-404d59?style=flat-square&logo=express&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
