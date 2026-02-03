@@ -12,11 +12,11 @@ const introduction = {
 
 function introduceMyself(intro) {
   return `Hi, I'm ${intro.name}, a ${intro.profession} from ${intro.location}.
-I love ${intro.passions.join(" & ")}.
-My main skills include: ${intro.skills.join(", ")}.
-Portfolio: ${intro.portfolio}
-GitHub: ${intro.github}
-Quote: "${intro.quote}"`;
+          I love ${intro.passions.join(" & ")}.
+          My main skills include: ${intro.skills.join(", ")}.
+          Portfolio: ${intro.portfolio}
+          GitHub: ${intro.github}
+          Quote: "${intro.quote}"`;
 }
 
 introduceMyself(introduction);
