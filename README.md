@@ -45,4 +45,4 @@ introduceMyself(introduction);
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
 ![bcrypt](https://img.shields.io/badge/bcrypt-000000?style=flat-square&logoColor=white)
 
-<p align="center">🚀 <em>"Ad Astra Per Aspera"</em> — Through hardships to the stars.</p>
+<p align="center">🚀 <em>"Ad Astra Per Aspera"</em> — Through difficulties to the stars.</p>
